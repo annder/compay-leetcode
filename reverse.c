@@ -15,8 +15,9 @@ int reverse(int x)
         {
             return 0;
         }
+        // 将末尾的数字加起来
         res = res * 10 + tmp;
-        x /= 10;
+        x /= 10; // 将数字降维一下
     }
     return res;
 }
